@@ -1,0 +1,43 @@
+.scroll {
+    position: absolute;
+    bottom: 5%;
+    width: 15px;
+    height: 42.5px;
+    left: 49.5%;
+    display: flex;
+    align-items: center;
+}
+
+.scroll-body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    animation: glow 1.25s cubic-bezier(0.95, -0.37, 1, 1) alternate forwards infinite;
+    padding: 2px 1px;
+}
+
+@keyframes glow {
+    0% { border-color: #be00ff }
+    25% { border-color: #3313ff }
+    50% { border-color: #2ff400 }
+    75% { border-color: #ffe200 } 
+    100% { border-color: red }  
+}
+
+.scroll-body-point {
+    width: 16px;
+    height: 11px;
+    background: white;
+    border-radius: 10px;
+    animation: scroll 1.25s cubic-bezier(0.95, -0.37, 1, 1) alternate forwards infinite;
+}
+
+
+@keyframes scroll {
+    from { transform: translateY(0); }
+    to { transform: translateY(24px); }
+}

@@ -1,0 +1,24 @@
+@import url('./styles/navbar.css');
+@import url('./styles/home.css');
+@import url('./styles/scroll.css');
+@import url('./styles/post-block.css');
+@import url('./styles/discography-preview.css');
+/* spotify about card hence s-a-c */
+@import url('./styles/s-a-c.css');
+@import url('./styles/s-a-m.css');
+
+/* 
+ *  animations
+ */
+@import url('./styles/animations/animations.css');
+/*
+@import url();
+@import url();
+@import url(); 
+*/
+
+.app {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #c14256, #110612);
+    color: white;
+}

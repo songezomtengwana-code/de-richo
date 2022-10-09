@@ -1,0 +1,155 @@
+.modal {
+    display: flex;
+    flex-flow: column;
+    background: #82285196;
+    color: black !important;
+    height: 100vh;
+    left: -1px;
+    width: 101vw;
+    overflow: scroll;
+    overflow-y: scroll;
+    transform: translateY(100vh);
+    opacity: 0;
+}
+
+.modal-active {
+    animation: in .5s ease-in alternate forwards;
+}
+
+.modal-inactive {
+    transform: translateY(100vh);
+    opacity: 0;
+}
+
+header.modal-header {
+    padding: unset;
+    height: 50vh;
+    width: 48.5vh;
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+    align-items: center;
+    overflow-y: scroll;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.modal-header-image {
+    height: 45vh;
+    width: 45vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.modal-content {
+    z-index: 2;
+    display: flex;
+    flex-flow: column;
+    color: white;
+    border-radius: unset;
+    background: transparent;
+}
+
+section.modal-content-cover {
+    position: relative;
+    height: 51vh;
+    width: 49vh;
+    margin-bottom: -1px;
+    background: linear-gradient(0deg, #121212, transparent, transparent) !important;
+}
+
+p.modal-content-about {
+    background: #121212;
+    padding: 2.25rem 1rem;
+    margin: unset;
+}
+
+.modal-content-listeners {
+    background: #121212;
+    margin-top: -1px;
+    padding: .25rem 1rem;   
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.modal-content-platforms {
+    background: #121212;
+    margin-top: -1px;
+    padding: 1.25rem 1rem;
+
+}
+
+.modal-content-listeners::after {
+    content: 'monthly listeners across all platforms';
+    font-size: 1rem;
+    font-weight: 100;
+    margin-left: .5rem;
+    margin-bottom: .25rem;
+    line-height: 2;
+    opacity: .75;
+}
+
+.modal-content-platforms-platform {
+    font-size: 1.75rem;
+    margin: .5rem;
+    line-height: 1;
+    opacity: 1;
+}
+
+.modal-content-platforms-platform {
+    font-size: 1.75rem;
+    margin: .5rem;
+    line-height: 1;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.modal-content-platforms-platform p {
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: .5;
+    margin: 0 0 0 .75rem;
+}
+
+.modal-content-platforms::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: #121212;
+    z-index: 1051;
+}
+
+.kos-close {
+    z-index: 1051;
+    position: fixed;
+    bottom: 0.25rem;
+    color: red;
+    filter: drop-shadow(0px 0px 2px red);
+    font-size: 2rem;
+    right: 0.25rem;
+    animation: glow-color 1.25s cubic-bezier(0.95, -0.37, 1, 1) alternate forwards infinite;
+    border: 1px solid;
+    line-height: 0;
+    padding: .15rem;
+    border-radius: 50%;
+}
+
+section.modal-content-cover::after {
+    content: 'De Richo';
+    font-size: 4rem;
+    font-weight: bold;
+    bottom: .5rem;
+    position: absolute;
+    left: 16px;
+}

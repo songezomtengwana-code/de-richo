@@ -1,0 +1,197 @@
+.home {
+    display: flex;
+    flex-flow: column;
+}
+
+.home-banner {
+    background: linear-gradient(45deg, #260d1a, transparent);
+    position: sticky;
+    width: 100%;
+    left: 0;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+.home-banner-text {
+    font-size: 1.2rem;
+    font-family: fantasy;
+    letter-spacing: 2.5px;
+}
+
+.home-land {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.home-land-content {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}
+
+section.card {
+    background: transparent;
+    border: 0;
+    height: 100%;
+}
+
+.card-body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card-body-top {
+    width: auto;
+    display: grid;
+    place-content: center;
+}
+
+span.card-body-top-art {
+    height: 500px;
+    width: 100vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -0.75rem;
+    left: -10px;
+}
+
+.card-body-low {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background: linear-gradient(45deg, transparent, #110612);
+}
+
+.watermark {
+    font-size: 8rem;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    top: 11rem;
+    opacity: 0.05;
+    right: 2.5rem;
+}
+
+.content-welcome {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.card-body-low {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background: linear-gradient(45deg, transparent, #110612);
+    padding: 1rem 1.25rem 0 0;
+}
+
+.watermark {
+    font-size: 8rem;
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    top: 21.5%;
+    opacity: 0.05;
+    right: 3.5rem;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    padding: 0.25rem 0 0;
+    text-align: end;
+}
+
+.content-welcome {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.signiture {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: .85rem;
+    color: red;
+    filter: drop-shadow(2px 2px 0px black);
+}
+
+.content-quote {
+    font-size: 2rem;
+}
+
+.content-referal {
+    margin: .5rem 0;
+    font-size: 1rem;
+}
+
+.available {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .25rem;
+}
+
+.available i {
+    font-size: 1rem;
+    margin: 0 0 1rem 1rem;
+    line-height: 1;
+    color: #ffffffad;
+}
+
+.home-section {
+    padding: 2rem 1rem;
+}
+
+.home-section-title {
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    border-bottom: 2px solid white;
+    width: max-content;
+}
+
+section.home-section-content {
+    margin: 2rem 0 1.5rem 0;
+}
+
+.btn.content-options-main {
+    padding: .25rem .75rem;
+    background: transparent;
+    border: 1px solid;
+    color: white;
+    animation: glow 1.25s cubic-bezier(0.95, -0.37, 1, 1) alternate forwards infinite;
+}
+
+
+.io {
+    transform: translateX(-45px);
+    opacity: 0;
+    transition: all ease-in-out .75s;
+}
+
+
+.declickbait {
+    position: fixed;
+    top: 0rem;
+    right: 1rem;
+    font-size: 2.25rem;
+    color: red;
+    filter: drop-shadow(2px 4px 6px red);
+    z-index: 2000;
+}

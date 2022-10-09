@@ -1,0 +1,10 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.css');
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+ @import url('./styles/kos-icons/kos-icons.css'); /* by yours truly =)  */
+
+
+* {
+    transition: all .5s ease-in;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}

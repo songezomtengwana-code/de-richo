@@ -1,0 +1,80 @@
+.sail {
+    transform: translateX(-70px);
+    animation: sail 2s alternate forwards ease-in;
+    opacity: 0;
+}
+
+.sail-200ms {
+    animation-delay: 270ms !important;
+    transform: translateX(-70px);
+    animation: sail 1.75s alternate forwards ease-in;
+}
+
+.sail-300ms {
+    animation-delay: 330ms !important;
+    transform: translateX(-70px);
+    animation: sail 1.75s alternate forwards ease-in;
+}
+
+.sail-400ms {
+    transform: translateX(-70px);
+    animation: sail 1.75s alternate forwards ease-in;
+    animation-delay: 450ms !important;
+}
+
+.sail-500ms {
+    transform: translateX(-70px);
+    animation: sail 1.75s alternate forwards ease-in;
+    animation-delay: 570ms !important;
+}
+
+.sail-600ms {
+    transform: translateX(-70px);
+    animation: sail 1.75s alternate forwards ease-in;
+    animation-delay: 630ms !important;
+}
+
+.sail-fast {
+    transform: translateX(-70px);
+    animation: sail .75s alternate forwards ease-in !important;
+    opacity: 0;
+}
+
+.unsail-fast {
+    animation: sail .5s alternate forwards ease-in !important;    
+}
+
+@keyframes sail {
+    from {
+        transform: translateX(-75px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes unsail {
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes glow-color {
+    0% { color: #be00ff }
+    25% { color: #3313ff }
+    50% { color: #2ff400 }
+    75% { color: #ffe200 } 
+    100% { color: red }  
+}
+
+@keyframes in {
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

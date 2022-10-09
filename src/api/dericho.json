@@ -1,0 +1,203 @@
+{
+    "artist": "de richo",
+    "tag": "dericho",
+    "talent": [
+        "Rapper",
+        "Singer",
+        "Producer"
+    ],
+    "description": "Versitile music artist based e14 also known as Fort Beaufort in the Eastern Cape province .",
+    "about": "Asemahle 'De Richo/Wxrdsmiith' Tsotsa is a Musical Artist born in Fort Beaufort/eBhofolo. He found love for rap music back in 2013 at Sunday Cypher where local artists used to perform. In 2015 he recorded his first single as 'Dezza TheeViper.' He further worked with artist like Maykee, MakhandaZonke ZA, Crvzy-a , Doobie Stash, Flex Mantombie, SoulTheSon , YIISA and many more. He has been operating under the management of his older brother, MakhandaZonke ZA, who is also his role model. He describes his sound as 'Commercial Spaza' a combination of mainstream music and underground rap .",
+    "topimage": "./assets/wordsmith/wordsmith.png",
+    "profile": "./assets/wordsmith/profile.jpg",
+    "links": [
+        {
+            "fonticon": "bi bi-instagram",
+            "fonticoncolor": "color-black",
+            "linkname": "Instagram",
+            "link": "https://www.instagram.com/derichoworldwide"
+        },
+        {
+            "fonticon": "bi bi-facebook",
+            "fonticoncolor": "color-facebook-blue",
+            "linkname": "Facebook",
+            "link": "https://web.facebook.com/wxrdtsotsa"
+        },
+        {
+            "fonticon": "bi bi-twitter",
+            "fonticoncolor": "color-twitter-blue",
+            "linkname": "Twitter",
+            "link": "https://twitter.com"
+        },
+        {
+            "fonticon": "bi bi-music-note",
+            "fonticoncolor": "color-itunes-rosegold",
+            "linkname": "Apple Music",
+            "link": "https://itunes.com"
+        },
+        {
+            "fonticon": "bi bi-spotify",
+            "fonticoncolor": "color-spotify-green",
+            "linkname": "Spotify",
+            "link": "https://open.spotify.com/artist/4xrBtXI8qEMjWa5OPAOigL"
+        },
+        {
+            "fontimage": "/assets/images/soundcloud.svg",
+            "fonticoncolor": "color-soundcloud-orange",
+            "linkname": "Soundcloud",
+            "link": "https://soundcloud.com/wxrdtsotsa"
+        },
+        {
+            "fontimage": "/assets/images/audiomack.png",
+            "fonticoncolor": "color-audiomack-gold",
+            "linkname": "Audiomack",
+            "link": "https://audiomack.com/wxrdtsotsa"
+        }
+    ],
+    "library": [
+        {
+            "imgurl": "https://i1.sndcdn.com/artworks-yIGa8LzooKxz7T3r-O8yQvg-t500x500.jpg",
+            "year": 2022,
+            "single": true,
+            "genre": "Hip-Hop/Rap",
+            "title": "Fifty Shades 3",
+            "contributes": "MakhandaZonke ZA",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa/fifty-shades-okwesithathuprod-by-makhandazonke?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                }
+            ]
+        },
+        {
+            "imgurl": "https://i1.sndcdn.com/artworks-yxcoRp4tafnBLzBo-Mxs4yw-t500x500.jpg",
+            "year": 2022,
+            "title": "4bidden($nippet)",
+            "genre": "Hip-Hop/Rap",
+            "contributes": null,
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa/4bidden?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                }
+            ]
+        },
+        {
+            "imgurl": "https://i1.sndcdn.com/artworks-Bm4hYgFGfuZNnLN9-daBtxA-t500x500.jpg",
+            "year": 2021,
+            "genre": "Hip-Hop/Rap",
+            "single": true,
+            "title": "Wenge",
+            "contributes": "Flex Mantombie, Berry Cooder & Diiego_14",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa/wenge-ft-flex-mantombie-berry?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                }
+            ]
+        },
+        {
+            "imgurl": "./assets/images/wordsmith/worldclass.jpg",
+            "year": 2021,
+            "title": "Worldcla$$ Mixtape",
+            "liecence": "Blaqnation ©",
+            "album": true,
+            "genre": "Hip-Hop/Rap, Soul & Trap",
+            "contributes": "MakhandaZonke ZA, Naviigator, Flex Mantombie, Berry Cooder & Diiego_14",
+            "type": "Mixtape",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                },
+                {
+                    "urlname": "Audiomack",
+                    "url": "https://audiomack.com/wxrdtsotsa/album/world-class",
+                    "iconimage": "/assets/images/audiomack.png",
+                    "iconcolor": "color-audiomack-gold"
+                }
+            ]
+        },
+        {
+            "imgurl": "./assets/images/wordsmith/journi.jpg",
+            "year": 2021,
+            "genre": "Hip-Hop/Rap",
+            "single": true,
+            "title": "Journi",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa/journi-prod-by-makhandazonke?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                },
+                {
+                    "urlname": "Spotify",
+                    "url": "https://open.spotify.com/track/3JqZQBszYeXuZTVxyYuip6?si=0dbabae12b19400b",
+                    "icon": "bi bi-spotify",
+                    "iconcolor": "color-spotify-green"
+                },
+                {
+                    "urlname": "Audiomack",
+                    "url": "https://audiomack.com/wxrdtsotsa/song/journi",
+                    "iconimage": "/assets/images/audiomack.png",
+                    "iconcolor": "color-audiomack-gold"
+                }
+            ]
+        },
+        {
+            "imgurl": "./assets/images/wordsmith/fiftyshades2.0.jpg",
+            "year": 2020,
+            "genre": "Hip-Hop",
+            "single": true,
+            "liecence": "Blaqnation ©",
+            "contributes": "MakhandaZonke ZA, Krixx OV, Memphis & Young Vision",
+            "title": "Fifty Shades 2.0",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                },
+                {
+                    "urlname": "Audiomack",
+                    "url": "https://audiomack.com/wxrdtsotsa/song/fiftyshade20",
+                    "iconimage": "/assets/images/audiomack.png",
+                    "iconcolor": "color-audiomack-gold"
+                }
+            ]
+        },
+        {
+            "imgurl": "./assets/images/wordsmith/fiftyshades.jpg",
+            "year": 2019,
+            "genre": "Hip-Hop/Rap",
+            "single": true,
+            "title": "Fifty Shades",
+            "liecence": "Blaqnation ©",
+            "contributes": "MakhandaZonke ZA",
+            "urls": [
+                {
+                    "urlname": "Soundcloud",
+                    "url": "https://soundcloud.com/wxrdtsotsa/fifty_shades-radio_edit?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+                    "iconimage": "/assets/images/soundcloud.svg",
+                    "iconcolor": "color-soundcloud-orange"
+                },
+                {
+                    "urlname": "Audiomack",
+                    "url": "https://audiomack.com/wxrdtsotsa/song/fifty-shadesradio-edit",
+                    "iconimage": "/assets/images/audiomack.png",
+                    "iconcolor": "color-audiomack-gold"
+                }
+            ]
+        }
+    ]
+}
